@@ -1,0 +1,136 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+  background-color: #1f2937;
+  padding: 20px 5%;
+  margin: 0;
+}
+
+.right-img {
+  border: 2px solid white;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  font-size: 18px;
+  display: flex;
+  font-weight: lighter;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.intro {
+  background-color: #1f2937;
+  color: rgba(255, 255, 255, 0.961);
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 50px 5%;
+}
+
+.register-btn {
+  border: none;
+  background-color: rgb(0, 115, 255);
+  padding: 20px;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.left-intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-img-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 5%;
+  gap: 15px;
+}
+
+.bracket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-img {
+  width: 650px;
+  height: 300px;
+  border: 5px solid #3882f6;
+}
+
+.quote-container {
+  margin-top: 20px;
+  background-color: #e5e7eb;
+  padding: 0 5%;
+}
+
+.quote {
+  color: #1f2937;
+  font-size: 36px;
+  margin-bottom: -10px;
+}
+
+.register {
+  margin: 50px 5%;
+  background-color: #3882f6;
+  border-radius: 7px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.register-text {
+  padding: 10px;
+}
+
+.btn-2 {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.register-btn-2 {
+  background-color: #3882f6;
+  color: white;
+  border: 2px solid white;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
